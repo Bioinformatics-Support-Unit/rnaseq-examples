@@ -28,6 +28,6 @@ qsub make_index.sh
 ## Quantify RNA-Seq reads
 ## Works as an array job, for the number of samples we're quantifying.
 ## Again, this is with SoGE in mind. Should be trivial to adapt.
-qsub -t 1-10 quantify_reads.sh
+qsub -t 1-12 quantify_reads.sh
 
 ## Now consider detect_dge.R for example analysis
